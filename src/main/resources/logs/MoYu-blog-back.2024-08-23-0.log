@@ -1,0 +1,1083 @@
+[TraceId: ] 2024-08-23 11:54:43 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m16460[0;39m [37m---[0;39m [33m[                main][0;39m [36mc.m.b.MoyuBlogBackApplication:51[0;39m            [34m- Starting MoyuBlogBackApplication using Java 17.0.7 with PID 16460 (E:\Item\moyu-blog\blog\moyu-blog-back\target\classes started by LiuRCのCP in E:\Item\moyu-blog\blog)
+[0;39m[TraceId: ] 2024-08-23 11:54:43 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m16460[0;39m [37m---[0;39m [33m[                main][0;39m [36mc.m.b.MoyuBlogBackApplication:639[0;39m           [34m- The following 1 profile is active: "dev"
+[0;39m[TraceId: ] 2024-08-23 11:54:45 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m16460[0;39m [37m---[0;39m [33m[                main][0;39m [36m.RepositoryConfigurationDelegate:291[0;39m        [34m- Multiple Spring Data modules found, entering strict repository configuration mode
+[0;39m[TraceId: ] 2024-08-23 11:54:45 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m16460[0;39m [37m---[0;39m [33m[                main][0;39m [36m.RepositoryConfigurationDelegate:138[0;39m        [34m- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[0;39m[TraceId: ] 2024-08-23 11:54:45 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m16460[0;39m [37m---[0;39m [33m[                main][0;39m [36m.RepositoryConfigurationDelegate:207[0;39m        [34m- Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaceinterfaces.
+[0;39m[TraceId: ] 2024-08-23 11:54:45 [31mWARN [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m16460[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.m.s.m.ClassPathMapperScanner:44[0;39m           [31m- No MyBatis mapper was found in '[com.moyu.blog]' package. Please check your configuration.
+[0;39m[TraceId: ] 2024-08-23 11:54:46 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m16460[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.s.b.w.e.t.TomcatWebServer:108[0;39m             [34m- Tomcat initialized with port(s): 8080 (http)
+[0;39m[TraceId: ] 2024-08-23 11:54:46 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m16460[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.a.c.core.StandardService:173[0;39m              [34m- Starting service [Tomcat]
+[0;39m[TraceId: ] 2024-08-23 11:54:46 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m16460[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.a.c.core.StandardEngine:173[0;39m               [34m- Starting Servlet engine: [Apache Tomcat/10.1.16]
+[0;39m[TraceId: ] 2024-08-23 11:54:46 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m16460[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.a.c.c.C.[.[localhost].[/]:173[0;39m             [34m- Initializing Spring embedded WebApplicationContext
+[0;39m[TraceId: ] 2024-08-23 11:54:46 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m16460[0;39m [37m---[0;39m [33m[                main][0;39m [36mrvletWebServerApplicationContext:291[0;39m        [34m- Root WebApplicationContext: initialization completed in 2325 ms
+[0;39m[TraceId: ] 2024-08-23 11:54:46 [31mWARN [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m16460[0;39m [37m---[0;39m [33m[                main][0;39m [36mrvletWebServerApplicationContext:624[0;39m        [31m- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController' defined in file [E:\Item\moyu-blog\blog\moyu-blog-back\target\classes\com\moyu\blog\user\controller\UserController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'userServiceImpl' defined in file [E:\Item\moyu-blog\blog\moyu-blog-back\target\classes\com\moyu\blog\user\service\impl\UserServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'userDao': Unsatisfied dependency expressed through field 'baseMapper': No qualifying bean of type 'com.moyu.blog.user.mapper.UserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+[0;39m[TraceId: ] 2024-08-23 11:54:46 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m16460[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.a.c.core.StandardService:173[0;39m              [34m- Stopping service [Tomcat]
+[0;39m[TraceId: ] 2024-08-23 11:54:46 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m16460[0;39m [37m---[0;39m [33m[                main][0;39m [36m.ConditionEvaluationReportLogger:82[0;39m         [34m- 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[0;39m[TraceId: ] 2024-08-23 11:54:46 [1;31mERROR[0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m16460[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.s.boot.SpringApplication:819[0;39m              [1;31m- Application run failed
+[0;39morg.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController' defined in file [E:\Item\moyu-blog\blog\moyu-blog-back\target\classes\com\moyu\blog\user\controller\UserController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'userServiceImpl' defined in file [E:\Item\moyu-blog\blog\moyu-blog-back\target\classes\com\moyu\blog\user\service\impl\UserServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'userDao': Unsatisfied dependency expressed through field 'baseMapper': No qualifying bean of type 'com.moyu.blog.user.mapper.UserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:801)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:950)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:616)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:733)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.moyu.blog.MoyuBlogBackApplication.main(MoyuBlogBackApplication.java:10)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl' defined in file [E:\Item\moyu-blog\blog\moyu-blog-back\target\classes\com\moyu\blog\user\service\impl\UserServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'userDao': Unsatisfied dependency expressed through field 'baseMapper': No qualifying bean of type 'com.moyu.blog.user.mapper.UserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:801)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:910)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userDao': Unsatisfied dependency expressed through field 'baseMapper': No qualifying bean of type 'com.moyu.blog.user.mapper.UserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:771)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:751)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:492)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:910)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788)
+	... 33 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.moyu.blog.user.mapper.UserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1824)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1383)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:768)
+	... 48 common frames omitted
+[TraceId: ] 2024-08-23 11:59:47 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m10420[0;39m [37m---[0;39m [33m[                main][0;39m [36mc.m.b.MoyuBlogBackApplication:51[0;39m            [34m- Starting MoyuBlogBackApplication using Java 17.0.7 with PID 10420 (E:\Item\moyu-blog\blog\moyu-blog-back\target\classes started by LiuRCのCP in E:\Item\moyu-blog\blog)
+[0;39m[TraceId: ] 2024-08-23 11:59:47 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m10420[0;39m [37m---[0;39m [33m[                main][0;39m [36mc.m.b.MoyuBlogBackApplication:639[0;39m           [34m- The following 1 profile is active: "dev"
+[0;39m[TraceId: ] 2024-08-23 11:59:48 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m10420[0;39m [37m---[0;39m [33m[                main][0;39m [36m.RepositoryConfigurationDelegate:291[0;39m        [34m- Multiple Spring Data modules found, entering strict repository configuration mode
+[0;39m[TraceId: ] 2024-08-23 11:59:48 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m10420[0;39m [37m---[0;39m [33m[                main][0;39m [36m.RepositoryConfigurationDelegate:138[0;39m        [34m- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[0;39m[TraceId: ] 2024-08-23 11:59:48 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m10420[0;39m [37m---[0;39m [33m[                main][0;39m [36m.RepositoryConfigurationDelegate:207[0;39m        [34m- Finished Spring Data repository scanning in 24 ms. Found 0 Redis repository interfaceinterfaces.
+[0;39m[TraceId: ] 2024-08-23 11:59:48 [31mWARN [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m10420[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.m.s.m.ClassPathMapperScanner:44[0;39m           [31m- No MyBatis mapper was found in '[com.moyu.im.**.mapper]' package. Please check your configuration.
+[0;39m[TraceId: ] 2024-08-23 11:59:49 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m10420[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.s.b.w.e.t.TomcatWebServer:108[0;39m             [34m- Tomcat initialized with port(s): 8080 (http)
+[0;39m[TraceId: ] 2024-08-23 11:59:49 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m10420[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.a.c.core.StandardService:173[0;39m              [34m- Starting service [Tomcat]
+[0;39m[TraceId: ] 2024-08-23 11:59:49 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m10420[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.a.c.core.StandardEngine:173[0;39m               [34m- Starting Servlet engine: [Apache Tomcat/10.1.16]
+[0;39m[TraceId: ] 2024-08-23 11:59:49 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m10420[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.a.c.c.C.[.[localhost].[/]:173[0;39m             [34m- Initializing Spring embedded WebApplicationContext
+[0;39m[TraceId: ] 2024-08-23 11:59:49 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m10420[0;39m [37m---[0;39m [33m[                main][0;39m [36mrvletWebServerApplicationContext:291[0;39m        [34m- Root WebApplicationContext: initialization completed in 2145 ms
+[0;39m[TraceId: ] 2024-08-23 11:59:49 [31mWARN [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m10420[0;39m [37m---[0;39m [33m[                main][0;39m [36mrvletWebServerApplicationContext:624[0;39m        [31m- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController' defined in file [E:\Item\moyu-blog\blog\moyu-blog-back\target\classes\com\moyu\blog\user\controller\UserController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'userServiceImpl' defined in file [E:\Item\moyu-blog\blog\moyu-blog-back\target\classes\com\moyu\blog\user\service\impl\UserServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'userDao': Unsatisfied dependency expressed through field 'baseMapper': No qualifying bean of type 'com.moyu.blog.user.mapper.UserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+[0;39m[TraceId: ] 2024-08-23 11:59:49 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m10420[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.a.c.core.StandardService:173[0;39m              [34m- Stopping service [Tomcat]
+[0;39m[TraceId: ] 2024-08-23 11:59:49 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m10420[0;39m [37m---[0;39m [33m[                main][0;39m [36m.ConditionEvaluationReportLogger:82[0;39m         [34m- 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[0;39m[TraceId: ] 2024-08-23 11:59:49 [1;31mERROR[0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m10420[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.s.boot.SpringApplication:819[0;39m              [1;31m- Application run failed
+[0;39morg.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController' defined in file [E:\Item\moyu-blog\blog\moyu-blog-back\target\classes\com\moyu\blog\user\controller\UserController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'userServiceImpl' defined in file [E:\Item\moyu-blog\blog\moyu-blog-back\target\classes\com\moyu\blog\user\service\impl\UserServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'userDao': Unsatisfied dependency expressed through field 'baseMapper': No qualifying bean of type 'com.moyu.blog.user.mapper.UserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:801)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:950)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:616)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:733)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.moyu.blog.MoyuBlogBackApplication.main(MoyuBlogBackApplication.java:12)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServiceImpl' defined in file [E:\Item\moyu-blog\blog\moyu-blog-back\target\classes\com\moyu\blog\user\service\impl\UserServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'userDao': Unsatisfied dependency expressed through field 'baseMapper': No qualifying bean of type 'com.moyu.blog.user.mapper.UserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:801)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:910)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userDao': Unsatisfied dependency expressed through field 'baseMapper': No qualifying bean of type 'com.moyu.blog.user.mapper.UserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:771)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:751)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:492)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:910)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788)
+	... 33 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.moyu.blog.user.mapper.UserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1824)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1383)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:768)
+	... 48 common frames omitted
+[TraceId: ] 2024-08-23 12:05:36 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m7812[0;39m [37m---[0;39m [33m[                main][0;39m [36mc.m.b.MoyuBlogBackApplication:51[0;39m            [34m- Starting MoyuBlogBackApplication using Java 17.0.7 with PID 7812 (E:\Item\moyu-blog\blog\moyu-blog-back\target\classes started by LiuRCのCP in E:\Item\moyu-blog\blog)
+[0;39m[TraceId: ] 2024-08-23 12:05:36 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m7812[0;39m [37m---[0;39m [33m[                main][0;39m [36mc.m.b.MoyuBlogBackApplication:639[0;39m           [34m- The following 1 profile is active: "dev"
+[0;39m[TraceId: ] 2024-08-23 12:05:37 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m7812[0;39m [37m---[0;39m [33m[                main][0;39m [36m.RepositoryConfigurationDelegate:291[0;39m        [34m- Multiple Spring Data modules found, entering strict repository configuration mode
+[0;39m[TraceId: ] 2024-08-23 12:05:37 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m7812[0;39m [37m---[0;39m [33m[                main][0;39m [36m.RepositoryConfigurationDelegate:138[0;39m        [34m- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[0;39m[TraceId: ] 2024-08-23 12:05:37 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m7812[0;39m [37m---[0;39m [33m[                main][0;39m [36m.RepositoryConfigurationDelegate:207[0;39m        [34m- Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaceinterfaces.
+[0;39m[TraceId: ] 2024-08-23 12:05:38 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m7812[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.s.b.w.e.t.TomcatWebServer:108[0;39m             [34m- Tomcat initialized with port(s): 8080 (http)
+[0;39m[TraceId: ] 2024-08-23 12:05:38 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m7812[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.a.c.core.StandardService:173[0;39m              [34m- Starting service [Tomcat]
+[0;39m[TraceId: ] 2024-08-23 12:05:38 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m7812[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.a.c.core.StandardEngine:173[0;39m               [34m- Starting Servlet engine: [Apache Tomcat/10.1.16]
+[0;39m[TraceId: ] 2024-08-23 12:05:38 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m7812[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.a.c.c.C.[.[localhost].[/]:173[0;39m             [34m- Initializing Spring embedded WebApplicationContext
+[0;39m[TraceId: ] 2024-08-23 12:05:38 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m7812[0;39m [37m---[0;39m [33m[                main][0;39m [36mrvletWebServerApplicationContext:291[0;39m        [34m- Root WebApplicationContext: initialization completed in 2180 ms
+[0;39m[TraceId: ] 2024-08-23 12:05:39 [31mWARN [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m7812[0;39m [37m---[0;39m [33m[                main][0;39m [36mrvletWebServerApplicationContext:624[0;39m        [31m- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cn.dev33.satoken.spring.SpringBootVersionCompatibilityChecker': Failed to instantiate [cn.dev33.satoken.spring.SpringBootVersionCompatibilityChecker]: Constructor threw exception
+[0;39m[TraceId: ] 2024-08-23 12:05:39 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m7812[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.a.c.core.StandardService:173[0;39m              [34m- Stopping service [Tomcat]
+[0;39m[TraceId: ] 2024-08-23 12:05:39 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m7812[0;39m [37m---[0;39m [33m[                main][0;39m [36m.ConditionEvaluationReportLogger:82[0;39m         [34m- 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[0;39m[TraceId: ] 2024-08-23 12:05:39 [1;31mERROR[0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m7812[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.s.boot.SpringApplication:819[0;39m              [1;31m- Application run failed
+[0;39morg.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cn.dev33.satoken.spring.SpringBootVersionCompatibilityChecker': Failed to instantiate [cn.dev33.satoken.spring.SpringBootVersionCompatibilityChecker]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1314)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1199)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:950)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:616)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:733)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.moyu.blog.MoyuBlogBackApplication.main(MoyuBlogBackApplication.java:12)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [cn.dev33.satoken.spring.SpringBootVersionCompatibilityChecker]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:225)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1308)
+	... 17 common frames omitted
+Caused by: cn.dev33.satoken.exception.SaTokenException: 当前 SpringBoot 版本（3.0.13）与 Sa-Token 依赖不兼容，请将依赖 sa-token-spring-boot-starter 修改为：sa-token-spring-boot3-starter
+	at cn.dev33.satoken.spring.SpringBootVersionCompatibilityChecker.<init>(SpringBootVersionCompatibilityChecker.java:23)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:199)
+	... 19 common frames omitted
+[TraceId: ] 2024-08-23 12:11:11 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m17152[0;39m [37m---[0;39m [33m[                main][0;39m [36mc.m.b.MoyuBlogBackApplication:51[0;39m            [34m- Starting MoyuBlogBackApplication using Java 17.0.7 with PID 17152 (E:\Item\moyu-blog\blog\moyu-blog-back\target\classes started by LiuRCのCP in E:\Item\moyu-blog\blog)
+[0;39m[TraceId: ] 2024-08-23 12:11:11 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m17152[0;39m [37m---[0;39m [33m[                main][0;39m [36mc.m.b.MoyuBlogBackApplication:639[0;39m           [34m- The following 1 profile is active: "dev"
+[0;39m[TraceId: ] 2024-08-23 12:11:12 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m17152[0;39m [37m---[0;39m [33m[                main][0;39m [36m.RepositoryConfigurationDelegate:291[0;39m        [34m- Multiple Spring Data modules found, entering strict repository configuration mode
+[0;39m[TraceId: ] 2024-08-23 12:11:12 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m17152[0;39m [37m---[0;39m [33m[                main][0;39m [36m.RepositoryConfigurationDelegate:138[0;39m        [34m- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[0;39m[TraceId: ] 2024-08-23 12:11:12 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m17152[0;39m [37m---[0;39m [33m[                main][0;39m [36m.RepositoryConfigurationDelegate:207[0;39m        [34m- Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaceinterfaces.
+[0;39m[TraceId: ] 2024-08-23 12:11:13 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m17152[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.s.b.w.e.t.TomcatWebServer:108[0;39m             [34m- Tomcat initialized with port(s): 8080 (http)
+[0;39m[TraceId: ] 2024-08-23 12:11:13 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m17152[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.a.c.core.StandardService:173[0;39m              [34m- Starting service [Tomcat]
+[0;39m[TraceId: ] 2024-08-23 12:11:13 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m17152[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.a.c.core.StandardEngine:173[0;39m               [34m- Starting Servlet engine: [Apache Tomcat/10.1.16]
+[0;39m[TraceId: ] 2024-08-23 12:11:13 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m17152[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.a.c.c.C.[.[localhost].[/]:173[0;39m             [34m- Initializing Spring embedded WebApplicationContext
+[0;39m[TraceId: ] 2024-08-23 12:11:13 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m17152[0;39m [37m---[0;39m [33m[                main][0;39m [36mrvletWebServerApplicationContext:291[0;39m        [34m- Root WebApplicationContext: initialization completed in 2231 ms
+[0;39m[TraceId: ] 2024-08-23 12:11:14 [31mWARN [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m17152[0;39m [37m---[0;39m [33m[                main][0;39m [36mrvletWebServerApplicationContext:624[0;39m        [31m- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration': net/sf/jsqlparser/statement/select/SelectBody
+[0;39m[TraceId: ] 2024-08-23 12:11:14 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m17152[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.a.c.core.StandardService:173[0;39m              [34m- Stopping service [Tomcat]
+[0;39m[TraceId: ] 2024-08-23 12:11:14 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m17152[0;39m [37m---[0;39m [33m[                main][0;39m [36m.ConditionEvaluationReportLogger:82[0;39m         [34m- 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[0;39m[TraceId: ] 2024-08-23 12:11:14 [1;31mERROR[0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m17152[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.s.boot.SpringApplication:819[0;39m              [1;31m- Application run failed
+[0;39morg.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration': net/sf/jsqlparser/statement/select/SelectBody
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1770)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:950)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:616)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:733)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.moyu.blog.MoyuBlogBackApplication.main(MoyuBlogBackApplication.java:12)
+Caused by: java.lang.NoClassDefFoundError: net/sf/jsqlparser/statement/select/SelectBody
+	at com.github.pagehelper.PageHelper.setProperties(PageHelper.java:158)
+	at com.github.pagehelper.PageInterceptor.setProperties(PageInterceptor.java:221)
+	at com.github.pagehelper.autoconfigure.PageHelperAutoConfiguration.afterPropertiesSet(PageHelperAutoConfiguration.java:65)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1817)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766)
+	... 16 common frames omitted
+Caused by: java.lang.ClassNotFoundException: net.sf.jsqlparser.statement.select.SelectBody
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 21 common frames omitted
+[TraceId: ] 2024-08-23 12:18:14 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m17996[0;39m [37m---[0;39m [33m[                main][0;39m [36mc.m.b.MoyuBlogBackApplication:51[0;39m            [34m- Starting MoyuBlogBackApplication using Java 17.0.7 with PID 17996 (E:\Item\moyu-blog\blog\moyu-blog-back\target\classes started by LiuRCのCP in E:\Item\moyu-blog\blog)
+[0;39m[TraceId: ] 2024-08-23 12:18:14 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m17996[0;39m [37m---[0;39m [33m[                main][0;39m [36mc.m.b.MoyuBlogBackApplication:639[0;39m           [34m- The following 1 profile is active: "dev"
+[0;39m[TraceId: ] 2024-08-23 12:18:15 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m17996[0;39m [37m---[0;39m [33m[                main][0;39m [36m.RepositoryConfigurationDelegate:291[0;39m        [34m- Multiple Spring Data modules found, entering strict repository configuration mode
+[0;39m[TraceId: ] 2024-08-23 12:18:15 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m17996[0;39m [37m---[0;39m [33m[                main][0;39m [36m.RepositoryConfigurationDelegate:138[0;39m        [34m- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[0;39m[TraceId: ] 2024-08-23 12:18:15 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m17996[0;39m [37m---[0;39m [33m[                main][0;39m [36m.RepositoryConfigurationDelegate:207[0;39m        [34m- Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaceinterfaces.
+[0;39m[TraceId: ] 2024-08-23 12:18:16 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m17996[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.s.b.w.e.t.TomcatWebServer:108[0;39m             [34m- Tomcat initialized with port(s): 8080 (http)
+[0;39m[TraceId: ] 2024-08-23 12:18:16 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m17996[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.a.c.core.StandardService:173[0;39m              [34m- Starting service [Tomcat]
+[0;39m[TraceId: ] 2024-08-23 12:18:16 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m17996[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.a.c.core.StandardEngine:173[0;39m               [34m- Starting Servlet engine: [Apache Tomcat/10.1.16]
+[0;39m[TraceId: ] 2024-08-23 12:18:16 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m17996[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.a.c.c.C.[.[localhost].[/]:173[0;39m             [34m- Initializing Spring embedded WebApplicationContext
+[0;39m[TraceId: ] 2024-08-23 12:18:16 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m17996[0;39m [37m---[0;39m [33m[                main][0;39m [36mrvletWebServerApplicationContext:291[0;39m        [34m- Root WebApplicationContext: initialization completed in 2447 ms
+[0;39m[TraceId: ] 2024-08-23 12:18:18 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m17996[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.s.b.w.e.t.TomcatWebServer:220[0;39m             [34m- Tomcat started on port(s): 8080 (http) with context path ''
+[0;39m[TraceId: ] 2024-08-23 12:18:18 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m17996[0;39m [37m---[0;39m [33m[                main][0;39m [36mc.m.b.MoyuBlogBackApplication:57[0;39m            [34m- Started MoyuBlogBackApplication in 5.587 seconds (process running for 7.184)
+[0;39m[TraceId: ] 2024-08-23 12:21:56 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m17996[0;39m [37m---[0;39m [33m[http-nio-8080-exec-2][0;39m [36mo.a.c.c.C.[.[localhost].[/]:173[0;39m             [34m- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[0;39m[TraceId: ] 2024-08-23 12:21:56 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m17996[0;39m [37m---[0;39m [33m[http-nio-8080-exec-2][0;39m [36mo.s.w.s.DispatcherServlet:532[0;39m               [34m- Initializing Servlet 'dispatcherServlet'
+[0;39m[TraceId: ] 2024-08-23 12:21:56 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m17996[0;39m [37m---[0;39m [33m[http-nio-8080-exec-2][0;39m [36mo.s.w.s.DispatcherServlet:554[0;39m               [34m- Completed initialization in 1 ms
+[0;39m[TraceId: ] 2024-08-23 12:21:57 [1;31mERROR[0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m17996[0;39m [37m---[0;39m [33m[http-nio-8080-exec-2][0;39m [36mc.m.b.c.h.GlobalExceptionHandler:42[0;39m         [1;31m- [POST] http://localhost:8080/api/user/login 
+[0;39morg.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.moyu.blog.common.convention.result.Result<?> com.moyu.blog.user.controller.UserController.login(com.moyu.blog.user.domain.vo.req.UserLoginReq)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:166)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:136)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:179)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at cn.dev33.satoken.filter.SaPathCheckFilterForJakartaServlet.doFilter(SaPathCheckFilterForJakartaServlet.java:55)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[TraceId: ] 2024-08-23 12:22:59 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m17996[0;39m [37m---[0;39m [33m[http-nio-8080-exec-5][0;39m [36mc.z.hikari.HikariDataSource:110[0;39m             [34m- HikariPool-1 - Starting...
+[0;39m[TraceId: ] 2024-08-23 12:22:59 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m17996[0;39m [37m---[0;39m [33m[http-nio-8080-exec-5][0;39m [36mc.z.hikari.pool.HikariPool:565[0;39m              [34m- HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@73d0869b
+[0;39m[TraceId: ] 2024-08-23 12:22:59 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m17996[0;39m [37m---[0;39m [33m[http-nio-8080-exec-5][0;39m [36mc.z.hikari.HikariDataSource:123[0;39m             [34m- HikariPool-1 - Start completed.
+[0;39m[TraceId: ] 2024-08-23 12:22:59 [1;31mERROR[0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m17996[0;39m [37m---[0;39m [33m[http-nio-8080-exec-5][0;39m [36mc.m.b.c.h.GlobalExceptionHandler:42[0;39m         [1;31m- [POST] http://localhost:8080/api/user/login 
+[0;39morg.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'id' in 'field list'
+### The error may exist in com/moyu/blog/user/mapper/UserMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT  id,name,password,sex,avatar,signature,create_time,update_time  FROM user      WHERE  (name = ? AND password = ?)
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'id' in 'field list'
+; bad SQL grammar []
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:246)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:73)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:92)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:439)
+	at jdk.proxy2/jdk.proxy2.$Proxy87.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:224)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForMany(MybatisMapperMethod.java:164)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:77)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:149)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:90)
+	at jdk.proxy2/jdk.proxy2.$Proxy88.selectList(Unknown Source)
+	at com.baomidou.mybatisplus.core.mapper.BaseMapper.selectOne(BaseMapper.java:223)
+	at java.base/java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:732)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$DefaultMethodInvoker.invoke(MybatisMapperProxy.java:163)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:90)
+	at jdk.proxy2/jdk.proxy2.$Proxy88.selectOne(Unknown Source)
+	at com.baomidou.mybatisplus.core.mapper.BaseMapper.selectOne(BaseMapper.java:212)
+	at java.base/java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:732)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$DefaultMethodInvoker.invoke(MybatisMapperProxy.java:163)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:90)
+	at jdk.proxy2/jdk.proxy2.$Proxy88.selectOne(Unknown Source)
+	at com.baomidou.mybatisplus.extension.conditions.query.ChainQuery.lambda$one$cd9f9c92$1(ChainQuery.java:59)
+	at com.baomidou.mybatisplus.extension.conditions.ChainWrapper.execute(ChainWrapper.java:63)
+	at com.baomidou.mybatisplus.extension.conditions.query.ChainQuery.one(ChainQuery.java:59)
+	at com.moyu.blog.user.dao.UserDao.getUserByNameAndPassword(UserDao.java:19)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:699)
+	at com.moyu.blog.user.dao.UserDao$$SpringCGLIB$$0.getUserByNameAndPassword(<generated>)
+	at com.moyu.blog.user.service.impl.UserServiceImpl.login(UserServiceImpl.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:699)
+	at com.moyu.blog.user.service.impl.UserServiceImpl$$SpringCGLIB$$0.login(<generated>)
+	at com.moyu.blog.user.controller.UserController.login(UserController.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at cn.dev33.satoken.filter.SaPathCheckFilterForJakartaServlet.doFilter(SaPathCheckFilterForJakartaServlet.java:55)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.sql.SQLSyntaxErrorException: Unknown column 'id' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy108.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:65)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:80)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at jdk.proxy2/jdk.proxy2.$Proxy106.query(Unknown Source)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:65)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:336)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:158)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:110)
+	at com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor.intercept(MybatisPlusInterceptor.java:81)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:59)
+	at jdk.proxy2/jdk.proxy2.$Proxy105.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:154)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:142)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425)
+	... 90 common frames omitted
+[TraceId: ] 2024-08-23 13:58:37 [31mWARN [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m17996[0;39m [37m---[0;39m [33m[riPool-1 housekeeper][0;39m [36mc.z.hikari.pool.HikariPool:804[0;39m              [31m- HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h3m6s928ms685µs400ns).
+[0;39m[TraceId: ] 2024-08-23 14:07:41 [1;31mERROR[0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m17996[0;39m [37m---[0;39m [33m[http-nio-8080-exec-4][0;39m [36mc.m.b.c.h.GlobalExceptionHandler:42[0;39m         [1;31m- [GET] http://127.0.0.1:8080/v3/api-docs/MoYu%20Blog 
+[0;39mjakarta.servlet.ServletException: Handler dispatch failed: java.lang.NoClassDefFoundError: com/fasterxml/jackson/core/exc/StreamConstraintsException
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1096)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at cn.dev33.satoken.filter.SaPathCheckFilterForJakartaServlet.doFilter(SaPathCheckFilterForJakartaServlet.java:55)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.NoClassDefFoundError: com/fasterxml/jackson/core/exc/StreamConstraintsException
+	at com.fasterxml.jackson.databind.node.JsonNodeFactory.objectNode(JsonNodeFactory.java:353)
+	at com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer.deserialize(JsonNodeDeserializer.java:100)
+	at com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer.deserialize(JsonNodeDeserializer.java:25)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readValue(ObjectMapper.java:4801)
+	at com.fasterxml.jackson.databind.ObjectMapper.readTree(ObjectMapper.java:3084)
+	at io.swagger.v3.core.util.ModelDeserializer.deserialize(ModelDeserializer.java:39)
+	at io.swagger.v3.core.util.ModelDeserializer.deserialize(ModelDeserializer.java:33)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3772)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3740)
+	at io.swagger.v3.core.util.AnnotationsUtils.clone(AnnotationsUtils.java:1459)
+	at io.swagger.v3.core.jackson.ModelResolver.clone(ModelResolver.java:1067)
+	at io.swagger.v3.core.jackson.ModelResolver.resolve(ModelResolver.java:707)
+	at org.springdoc.core.converters.WebFluxSupportConverter.resolve(WebFluxSupportConverter.java:86)
+	at org.springdoc.core.converters.AdditionalModelsConverter.resolve(AdditionalModelsConverter.java:155)
+	at org.springdoc.core.converters.FileSupportConverter.resolve(FileSupportConverter.java:69)
+	at org.springdoc.core.converters.ResponseSupportConverter.resolve(ResponseSupportConverter.java:79)
+	at org.springdoc.core.converters.SchemaPropertyDeprecatingConverter.resolve(SchemaPropertyDeprecatingConverter.java:92)
+	at org.springdoc.core.converters.PolymorphicModelConverter.resolve(PolymorphicModelConverter.java:77)
+	at org.springdoc.core.converters.PageableOpenAPIConverter.resolve(PageableOpenAPIConverter.java:93)
+	at org.springdoc.core.converters.SortOpenAPIConverter.resolve(SortOpenAPIConverter.java:83)
+	at io.swagger.v3.core.converter.ModelConverterContextImpl.resolve(ModelConverterContextImpl.java:97)
+	at io.swagger.v3.core.converter.ModelConverters.resolveAsResolvedSchema(ModelConverters.java:153)
+	at org.springdoc.core.utils.SpringDocAnnotationsUtils.extractSchema(SpringDocAnnotationsUtils.java:126)
+	at org.springdoc.core.service.GenericParameterService.calculateSchema(GenericParameterService.java:374)
+	at org.springdoc.core.service.RequestBodyService.buildRequestBody(RequestBodyService.java:281)
+	at org.springdoc.core.service.RequestBodyService.calculateRequestBodyInfo(RequestBodyService.java:257)
+	at org.springdoc.core.service.AbstractRequestService.build(AbstractRequestService.java:343)
+	at org.springdoc.api.AbstractOpenApiResource.calculatePath(AbstractOpenApiResource.java:496)
+	at org.springdoc.api.AbstractOpenApiResource.calculatePath(AbstractOpenApiResource.java:676)
+	at org.springdoc.webmvc.api.OpenApiResource.lambda$calculatePath$11(OpenApiResource.java:219)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at org.springdoc.webmvc.api.OpenApiResource.calculatePath(OpenApiResource.java:200)
+	at org.springdoc.webmvc.api.OpenApiResource.lambda$getPaths$2(OpenApiResource.java:170)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at org.springdoc.webmvc.api.OpenApiResource.getPaths(OpenApiResource.java:149)
+	at org.springdoc.api.AbstractOpenApiResource.getOpenApi(AbstractOpenApiResource.java:353)
+	at org.springdoc.webmvc.api.OpenApiResource.openapiJson(OpenApiResource.java:124)
+	at org.springdoc.webmvc.api.OpenApiWebMvcResource.openapiJson(OpenApiWebMvcResource.java:111)
+	at org.springdoc.webmvc.api.MultipleOpenApiWebMvcResource.openapiJson(MultipleOpenApiWebMvcResource.java:95)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	... 42 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.fasterxml.jackson.core.exc.StreamConstraintsException
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 95 common frames omitted
+[TraceId: ] 2024-08-23 14:35:20 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m17996[0;39m [37m---[0;39m [33m[licationShutdownHook][0;39m [36mc.z.hikari.HikariDataSource:350[0;39m             [34m- HikariPool-1 - Shutdown initiated...
+[0;39m[TraceId: ] 2024-08-23 14:35:20 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m17996[0;39m [37m---[0;39m [33m[licationShutdownHook][0;39m [36mc.z.hikari.HikariDataSource:352[0;39m             [34m- HikariPool-1 - Shutdown completed.
+[0;39m[TraceId: ] 2024-08-23 14:45:23 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m10576[0;39m [37m---[0;39m [33m[                main][0;39m [36mc.m.b.MoyuBlogBackApplication:51[0;39m            [34m- Starting MoyuBlogBackApplication using Java 17.0.7 with PID 10576 (E:\Item\moyu-blog\blog\moyu-blog-back\target\classes started by LiuRCのCP in E:\Item\moyu-blog\blog)
+[0;39m[TraceId: ] 2024-08-23 14:45:23 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m10576[0;39m [37m---[0;39m [33m[                main][0;39m [36mc.m.b.MoyuBlogBackApplication:639[0;39m           [34m- The following 1 profile is active: "dev"
+[0;39m[TraceId: ] 2024-08-23 14:45:24 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m10576[0;39m [37m---[0;39m [33m[                main][0;39m [36m.RepositoryConfigurationDelegate:291[0;39m        [34m- Multiple Spring Data modules found, entering strict repository configuration mode
+[0;39m[TraceId: ] 2024-08-23 14:45:24 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m10576[0;39m [37m---[0;39m [33m[                main][0;39m [36m.RepositoryConfigurationDelegate:138[0;39m        [34m- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[0;39m[TraceId: ] 2024-08-23 14:45:24 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m10576[0;39m [37m---[0;39m [33m[                main][0;39m [36m.RepositoryConfigurationDelegate:207[0;39m        [34m- Finished Spring Data repository scanning in 27 ms. Found 0 Redis repository interfaceinterfaces.
+[0;39m[TraceId: ] 2024-08-23 14:45:25 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m10576[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.s.b.w.e.t.TomcatWebServer:108[0;39m             [34m- Tomcat initialized with port(s): 8080 (http)
+[0;39m[TraceId: ] 2024-08-23 14:45:25 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m10576[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.a.c.core.StandardService:173[0;39m              [34m- Starting service [Tomcat]
+[0;39m[TraceId: ] 2024-08-23 14:45:25 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m10576[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.a.c.core.StandardEngine:173[0;39m               [34m- Starting Servlet engine: [Apache Tomcat/10.1.16]
+[0;39m[TraceId: ] 2024-08-23 14:45:26 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m10576[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.a.c.c.C.[.[localhost].[/]:173[0;39m             [34m- Initializing Spring embedded WebApplicationContext
+[0;39m[TraceId: ] 2024-08-23 14:45:26 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m10576[0;39m [37m---[0;39m [33m[                main][0;39m [36mrvletWebServerApplicationContext:291[0;39m        [34m- Root WebApplicationContext: initialization completed in 2719 ms
+[0;39m[TraceId: ] 2024-08-23 14:45:28 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m10576[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.s.b.w.e.t.TomcatWebServer:220[0;39m             [34m- Tomcat started on port(s): 8080 (http) with context path ''
+[0;39m[TraceId: ] 2024-08-23 14:45:28 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m10576[0;39m [37m---[0;39m [33m[                main][0;39m [36mc.m.b.MoyuBlogBackApplication:57[0;39m            [34m- Started MoyuBlogBackApplication in 6.015 seconds (process running for 7.732)
+[0;39m[TraceId: ] 2024-08-23 14:46:24 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m10576[0;39m [37m---[0;39m [33m[http-nio-8080-exec-2][0;39m [36mo.a.c.c.C.[.[localhost].[/]:173[0;39m             [34m- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[0;39m[TraceId: ] 2024-08-23 14:46:24 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m10576[0;39m [37m---[0;39m [33m[http-nio-8080-exec-2][0;39m [36mo.s.w.s.DispatcherServlet:532[0;39m               [34m- Initializing Servlet 'dispatcherServlet'
+[0;39m[TraceId: ] 2024-08-23 14:46:24 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m10576[0;39m [37m---[0;39m [33m[http-nio-8080-exec-2][0;39m [36mo.s.w.s.DispatcherServlet:554[0;39m               [34m- Completed initialization in 2 ms
+[0;39m[TraceId: ] 2024-08-23 14:46:24 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m10576[0;39m [37m---[0;39m [33m[http-nio-8080-exec-2][0;39m [36mc.z.hikari.HikariDataSource:110[0;39m             [34m- HikariPool-1 - Starting...
+[0;39m[TraceId: ] 2024-08-23 14:46:25 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m10576[0;39m [37m---[0;39m [33m[http-nio-8080-exec-2][0;39m [36mc.z.hikari.pool.HikariPool:565[0;39m              [34m- HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4d39ec23
+[0;39m[TraceId: ] 2024-08-23 14:46:25 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m10576[0;39m [37m---[0;39m [33m[http-nio-8080-exec-2][0;39m [36mc.z.hikari.HikariDataSource:123[0;39m             [34m- HikariPool-1 - Start completed.
+[0;39m[TraceId: ] 2024-08-23 14:46:25 [1;31mERROR[0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m10576[0;39m [37m---[0;39m [33m[http-nio-8080-exec-2][0;39m [36mc.m.b.c.h.GlobalExceptionHandler:42[0;39m         [1;31m- [POST] http://localhost:8080/api/user/login 
+[0;39morg.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'id' in 'field list'
+### The error may exist in com/moyu/blog/user/mapper/UserMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT  id,name,password,sex,avatar,signature,create_time,update_time  FROM user      WHERE  (name = ? AND password = ?)
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'id' in 'field list'
+; bad SQL grammar []
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:246)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:73)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:92)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:439)
+	at jdk.proxy2/jdk.proxy2.$Proxy87.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:224)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForMany(MybatisMapperMethod.java:164)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:77)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:149)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:90)
+	at jdk.proxy2/jdk.proxy2.$Proxy88.selectList(Unknown Source)
+	at com.baomidou.mybatisplus.core.mapper.BaseMapper.selectOne(BaseMapper.java:223)
+	at java.base/java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:732)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$DefaultMethodInvoker.invoke(MybatisMapperProxy.java:163)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:90)
+	at jdk.proxy2/jdk.proxy2.$Proxy88.selectOne(Unknown Source)
+	at com.baomidou.mybatisplus.core.mapper.BaseMapper.selectOne(BaseMapper.java:212)
+	at java.base/java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:732)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$DefaultMethodInvoker.invoke(MybatisMapperProxy.java:163)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:90)
+	at jdk.proxy2/jdk.proxy2.$Proxy88.selectOne(Unknown Source)
+	at com.baomidou.mybatisplus.extension.conditions.query.ChainQuery.lambda$one$cd9f9c92$1(ChainQuery.java:59)
+	at com.baomidou.mybatisplus.extension.conditions.ChainWrapper.execute(ChainWrapper.java:63)
+	at com.baomidou.mybatisplus.extension.conditions.query.ChainQuery.one(ChainQuery.java:59)
+	at com.moyu.blog.user.dao.UserDao.getUserByNameAndPassword(UserDao.java:19)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:699)
+	at com.moyu.blog.user.dao.UserDao$$SpringCGLIB$$0.getUserByNameAndPassword(<generated>)
+	at com.moyu.blog.user.service.impl.UserServiceImpl.login(UserServiceImpl.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:699)
+	at com.moyu.blog.user.service.impl.UserServiceImpl$$SpringCGLIB$$0.login(<generated>)
+	at com.moyu.blog.user.controller.UserController.login(UserController.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at cn.dev33.satoken.filter.SaPathCheckFilterForJakartaServlet.doFilter(SaPathCheckFilterForJakartaServlet.java:55)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.sql.SQLSyntaxErrorException: Unknown column 'id' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy108.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:65)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:80)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at jdk.proxy2/jdk.proxy2.$Proxy106.query(Unknown Source)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:65)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:336)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:158)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:110)
+	at com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor.intercept(MybatisPlusInterceptor.java:81)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:59)
+	at jdk.proxy2/jdk.proxy2.$Proxy105.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:154)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:142)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425)
+	... 90 common frames omitted
+[TraceId: ] 2024-08-23 14:39:49 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m10576[0;39m [37m---[0;39m [33m[licationShutdownHook][0;39m [36mc.z.hikari.HikariDataSource:350[0;39m             [34m- HikariPool-1 - Shutdown initiated...
+[0;39m[TraceId: ] 2024-08-23 14:39:49 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m10576[0;39m [37m---[0;39m [33m[licationShutdownHook][0;39m [36mc.z.hikari.HikariDataSource:352[0;39m             [34m- HikariPool-1 - Shutdown completed.
+[0;39m[TraceId: ] 2024-08-23 14:48:43 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m14232[0;39m [37m---[0;39m [33m[                main][0;39m [36mc.m.b.MoyuBlogBackApplication:51[0;39m            [34m- Starting MoyuBlogBackApplication using Java 17.0.7 with PID 14232 (E:\Item\moyu-blog\blog\moyu-blog-back\target\classes started by LiuRCのCP in E:\Item\moyu-blog\blog)
+[0;39m[TraceId: ] 2024-08-23 14:48:43 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m14232[0;39m [37m---[0;39m [33m[                main][0;39m [36mc.m.b.MoyuBlogBackApplication:639[0;39m           [34m- The following 1 profile is active: "dev"
+[0;39m[TraceId: ] 2024-08-23 14:48:46 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m14232[0;39m [37m---[0;39m [33m[                main][0;39m [36m.RepositoryConfigurationDelegate:291[0;39m        [34m- Multiple Spring Data modules found, entering strict repository configuration mode
+[0;39m[TraceId: ] 2024-08-23 14:48:46 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m14232[0;39m [37m---[0;39m [33m[                main][0;39m [36m.RepositoryConfigurationDelegate:138[0;39m        [34m- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[0;39m[TraceId: ] 2024-08-23 14:48:47 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m14232[0;39m [37m---[0;39m [33m[                main][0;39m [36m.RepositoryConfigurationDelegate:207[0;39m        [34m- Finished Spring Data repository scanning in 45 ms. Found 0 Redis repository interfaceinterfaces.
+[0;39m[TraceId: ] 2024-08-23 14:48:48 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m14232[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.s.b.w.e.t.TomcatWebServer:108[0;39m             [34m- Tomcat initialized with port(s): 8080 (http)
+[0;39m[TraceId: ] 2024-08-23 14:48:48 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m14232[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.a.c.core.StandardService:173[0;39m              [34m- Starting service [Tomcat]
+[0;39m[TraceId: ] 2024-08-23 14:48:48 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m14232[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.a.c.core.StandardEngine:173[0;39m               [34m- Starting Servlet engine: [Apache Tomcat/10.1.16]
+[0;39m[TraceId: ] 2024-08-23 14:48:48 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m14232[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.a.c.c.C.[.[localhost].[/]:173[0;39m             [34m- Initializing Spring embedded WebApplicationContext
+[0;39m[TraceId: ] 2024-08-23 14:48:48 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m14232[0;39m [37m---[0;39m [33m[                main][0;39m [36mrvletWebServerApplicationContext:291[0;39m        [34m- Root WebApplicationContext: initialization completed in 4306 ms
+[0;39m[TraceId: ] 2024-08-23 14:48:50 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m14232[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.s.b.w.e.t.TomcatWebServer:220[0;39m             [34m- Tomcat started on port(s): 8080 (http) with context path ''
+[0;39m[TraceId: ] 2024-08-23 14:48:50 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m14232[0;39m [37m---[0;39m [33m[                main][0;39m [36mc.m.b.MoyuBlogBackApplication:57[0;39m            [34m- Started MoyuBlogBackApplication in 8.211 seconds (process running for 9.631)
+[0;39m[TraceId: ] 2024-08-23 14:49:24 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m14232[0;39m [37m---[0;39m [33m[http-nio-8080-exec-2][0;39m [36mo.a.c.c.C.[.[localhost].[/]:173[0;39m             [34m- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[0;39m[TraceId: ] 2024-08-23 14:49:24 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m14232[0;39m [37m---[0;39m [33m[http-nio-8080-exec-2][0;39m [36mo.s.w.s.DispatcherServlet:532[0;39m               [34m- Initializing Servlet 'dispatcherServlet'
+[0;39m[TraceId: ] 2024-08-23 14:49:24 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m14232[0;39m [37m---[0;39m [33m[http-nio-8080-exec-2][0;39m [36mo.s.w.s.DispatcherServlet:554[0;39m               [34m- Completed initialization in 1 ms
+[0;39m[TraceId: ] 2024-08-23 14:49:24 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m14232[0;39m [37m---[0;39m [33m[http-nio-8080-exec-2][0;39m [36mc.z.hikari.HikariDataSource:110[0;39m             [34m- HikariPool-1 - Starting...
+[0;39m[TraceId: ] 2024-08-23 14:49:24 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m14232[0;39m [37m---[0;39m [33m[http-nio-8080-exec-2][0;39m [36mc.z.hikari.pool.HikariPool:565[0;39m              [34m- HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@418b9b13
+[0;39m[TraceId: ] 2024-08-23 14:49:24 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m14232[0;39m [37m---[0;39m [33m[http-nio-8080-exec-2][0;39m [36mc.z.hikari.HikariDataSource:123[0;39m             [34m- HikariPool-1 - Start completed.
+[0;39m[TraceId: ] 2024-08-23 14:49:25 [1;31mERROR[0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m14232[0;39m [37m---[0;39m [33m[http-nio-8080-exec-2][0;39m [36mc.m.b.c.h.GlobalExceptionHandler:42[0;39m         [1;31m- [POST] http://localhost:8080/api/user/login 
+[0;39morg.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'id' in 'field list'
+### The error may exist in com/moyu/blog/user/mapper/UserMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT  id,name,password,sex,avatar,signature,create_time,update_time  FROM user      WHERE  (name = ? AND password = ?)
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'id' in 'field list'
+; bad SQL grammar []
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:246)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:73)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:92)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:439)
+	at jdk.proxy2/jdk.proxy2.$Proxy87.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:224)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForMany(MybatisMapperMethod.java:164)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:77)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:149)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:90)
+	at jdk.proxy2/jdk.proxy2.$Proxy88.selectList(Unknown Source)
+	at com.baomidou.mybatisplus.core.mapper.BaseMapper.selectOne(BaseMapper.java:223)
+	at java.base/java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:732)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$DefaultMethodInvoker.invoke(MybatisMapperProxy.java:163)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:90)
+	at jdk.proxy2/jdk.proxy2.$Proxy88.selectOne(Unknown Source)
+	at com.baomidou.mybatisplus.core.mapper.BaseMapper.selectOne(BaseMapper.java:212)
+	at java.base/java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:732)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$DefaultMethodInvoker.invoke(MybatisMapperProxy.java:163)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:90)
+	at jdk.proxy2/jdk.proxy2.$Proxy88.selectOne(Unknown Source)
+	at com.baomidou.mybatisplus.extension.conditions.query.ChainQuery.lambda$one$cd9f9c92$1(ChainQuery.java:59)
+	at com.baomidou.mybatisplus.extension.conditions.ChainWrapper.execute(ChainWrapper.java:63)
+	at com.baomidou.mybatisplus.extension.conditions.query.ChainQuery.one(ChainQuery.java:59)
+	at com.moyu.blog.user.dao.UserDao.getUserByNameAndPassword(UserDao.java:19)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:699)
+	at com.moyu.blog.user.dao.UserDao$$SpringCGLIB$$0.getUserByNameAndPassword(<generated>)
+	at com.moyu.blog.user.service.impl.UserServiceImpl.login(UserServiceImpl.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:699)
+	at com.moyu.blog.user.service.impl.UserServiceImpl$$SpringCGLIB$$0.login(<generated>)
+	at com.moyu.blog.user.controller.UserController.login(UserController.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at cn.dev33.satoken.filter.SaPathCheckFilterForJakartaServlet.doFilter(SaPathCheckFilterForJakartaServlet.java:55)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.sql.SQLSyntaxErrorException: Unknown column 'id' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy108.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:65)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:80)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at jdk.proxy2/jdk.proxy2.$Proxy106.query(Unknown Source)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:65)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:336)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:158)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:110)
+	at com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor.intercept(MybatisPlusInterceptor.java:81)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:59)
+	at jdk.proxy2/jdk.proxy2.$Proxy105.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:154)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:142)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425)
+	... 90 common frames omitted
+[TraceId: ] 2024-08-23 14:51:35 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m14232[0;39m [37m---[0;39m [33m[licationShutdownHook][0;39m [36mc.z.hikari.HikariDataSource:350[0;39m             [34m- HikariPool-1 - Shutdown initiated...
+[0;39m[TraceId: ] 2024-08-23 14:51:35 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m14232[0;39m [37m---[0;39m [33m[licationShutdownHook][0;39m [36mc.z.hikari.HikariDataSource:352[0;39m             [34m- HikariPool-1 - Shutdown completed.
+[0;39m[TraceId: ] 2024-08-23 14:51:44 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m4324[0;39m [37m---[0;39m [33m[                main][0;39m [36mc.m.b.MoyuBlogBackApplication:51[0;39m            [34m- Starting MoyuBlogBackApplication using Java 17.0.7 with PID 4324 (E:\Item\moyu-blog\blog\moyu-blog-back\target\classes started by LiuRCのCP in E:\Item\moyu-blog\blog)
+[0;39m[TraceId: ] 2024-08-23 14:51:44 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m4324[0;39m [37m---[0;39m [33m[                main][0;39m [36mc.m.b.MoyuBlogBackApplication:639[0;39m           [34m- The following 1 profile is active: "dev"
+[0;39m[TraceId: ] 2024-08-23 14:51:46 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m4324[0;39m [37m---[0;39m [33m[                main][0;39m [36m.RepositoryConfigurationDelegate:291[0;39m        [34m- Multiple Spring Data modules found, entering strict repository configuration mode
+[0;39m[TraceId: ] 2024-08-23 14:51:46 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m4324[0;39m [37m---[0;39m [33m[                main][0;39m [36m.RepositoryConfigurationDelegate:138[0;39m        [34m- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[0;39m[TraceId: ] 2024-08-23 14:51:46 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m4324[0;39m [37m---[0;39m [33m[                main][0;39m [36m.RepositoryConfigurationDelegate:207[0;39m        [34m- Finished Spring Data repository scanning in 30 ms. Found 0 Redis repository interfaceinterfaces.
+[0;39m[TraceId: ] 2024-08-23 14:51:47 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m4324[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.s.b.w.e.t.TomcatWebServer:108[0;39m             [34m- Tomcat initialized with port(s): 8080 (http)
+[0;39m[TraceId: ] 2024-08-23 14:51:47 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m4324[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.a.c.core.StandardService:173[0;39m              [34m- Starting service [Tomcat]
+[0;39m[TraceId: ] 2024-08-23 14:51:47 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m4324[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.a.c.core.StandardEngine:173[0;39m               [34m- Starting Servlet engine: [Apache Tomcat/10.1.16]
+[0;39m[TraceId: ] 2024-08-23 14:51:47 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m4324[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.a.c.c.C.[.[localhost].[/]:173[0;39m             [34m- Initializing Spring embedded WebApplicationContext
+[0;39m[TraceId: ] 2024-08-23 14:51:47 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m4324[0;39m [37m---[0;39m [33m[                main][0;39m [36mrvletWebServerApplicationContext:291[0;39m        [34m- Root WebApplicationContext: initialization completed in 2246 ms
+[0;39m[TraceId: ] 2024-08-23 14:51:49 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m4324[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.s.b.w.e.t.TomcatWebServer:220[0;39m             [34m- Tomcat started on port(s): 8080 (http) with context path ''
+[0;39m[TraceId: ] 2024-08-23 14:51:49 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m4324[0;39m [37m---[0;39m [33m[                main][0;39m [36mc.m.b.MoyuBlogBackApplication:57[0;39m            [34m- Started MoyuBlogBackApplication in 5.214 seconds (process running for 7.003)
+[0;39m[TraceId: ] 2024-08-23 14:52:44 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m4324[0;39m [37m---[0;39m [33m[http-nio-8080-exec-1][0;39m [36mo.a.c.c.C.[.[localhost].[/]:173[0;39m             [34m- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[0;39m[TraceId: ] 2024-08-23 14:52:44 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m4324[0;39m [37m---[0;39m [33m[http-nio-8080-exec-1][0;39m [36mo.s.w.s.DispatcherServlet:532[0;39m               [34m- Initializing Servlet 'dispatcherServlet'
+[0;39m[TraceId: ] 2024-08-23 14:52:44 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m4324[0;39m [37m---[0;39m [33m[http-nio-8080-exec-1][0;39m [36mo.s.w.s.DispatcherServlet:554[0;39m               [34m- Completed initialization in 3 ms
+[0;39m[TraceId: ] 2024-08-23 14:52:45 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m4324[0;39m [37m---[0;39m [33m[http-nio-8080-exec-3][0;39m [36mo.s.a.AbstractOpenApiResource:390[0;39m           [34m- Init duration for springdoc-openapi is: 158 ms
+[0;39m[TraceId: ] 2024-08-23 14:56:19 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m4324[0;39m [37m---[0;39m [33m[http-nio-8080-exec-5][0;39m [36mc.z.hikari.HikariDataSource:110[0;39m             [34m- HikariPool-1 - Starting...
+[0;39m[TraceId: ] 2024-08-23 14:56:20 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m4324[0;39m [37m---[0;39m [33m[http-nio-8080-exec-5][0;39m [36mc.z.hikari.pool.HikariPool:565[0;39m              [34m- HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@61a31ae5
+[0;39m[TraceId: ] 2024-08-23 14:56:20 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m4324[0;39m [37m---[0;39m [33m[http-nio-8080-exec-5][0;39m [36mc.z.hikari.HikariDataSource:123[0;39m             [34m- HikariPool-1 - Start completed.
+[0;39m[TraceId: ] 2024-08-23 14:56:20 [1;31mERROR[0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m4324[0;39m [37m---[0;39m [33m[http-nio-8080-exec-5][0;39m [36mc.m.b.c.h.GlobalExceptionHandler:42[0;39m         [1;31m- [POST] http://localhost:8080/api/user/login 
+[0;39morg.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'id' in 'field list'
+### The error may exist in com/moyu/blog/user/mapper/UserMapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT  id,name,password,sex,avatar,signature,create_time,update_time  FROM user      WHERE  (name = ? AND password = ?)
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'id' in 'field list'
+; bad SQL grammar []
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:246)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:73)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:92)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:439)
+	at jdk.proxy2/jdk.proxy2.$Proxy87.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:224)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.executeForMany(MybatisMapperMethod.java:164)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:77)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:149)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:90)
+	at jdk.proxy2/jdk.proxy2.$Proxy88.selectList(Unknown Source)
+	at com.baomidou.mybatisplus.core.mapper.BaseMapper.selectOne(BaseMapper.java:223)
+	at java.base/java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:732)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$DefaultMethodInvoker.invoke(MybatisMapperProxy.java:163)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:90)
+	at jdk.proxy2/jdk.proxy2.$Proxy88.selectOne(Unknown Source)
+	at com.baomidou.mybatisplus.core.mapper.BaseMapper.selectOne(BaseMapper.java:212)
+	at java.base/java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:732)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$DefaultMethodInvoker.invoke(MybatisMapperProxy.java:163)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:90)
+	at jdk.proxy2/jdk.proxy2.$Proxy88.selectOne(Unknown Source)
+	at com.baomidou.mybatisplus.extension.conditions.query.ChainQuery.lambda$one$cd9f9c92$1(ChainQuery.java:59)
+	at com.baomidou.mybatisplus.extension.conditions.ChainWrapper.execute(ChainWrapper.java:63)
+	at com.baomidou.mybatisplus.extension.conditions.query.ChainQuery.one(ChainQuery.java:59)
+	at com.moyu.blog.user.dao.UserDao.getUserByNameAndPassword(UserDao.java:19)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:699)
+	at com.moyu.blog.user.dao.UserDao$$SpringCGLIB$$0.getUserByNameAndPassword(<generated>)
+	at com.moyu.blog.user.service.impl.UserServiceImpl.login(UserServiceImpl.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:699)
+	at com.moyu.blog.user.service.impl.UserServiceImpl$$SpringCGLIB$$0.login(<generated>)
+	at com.moyu.blog.user.controller.UserController.login(UserController.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at cn.dev33.satoken.filter.SaPathCheckFilterForJakartaServlet.doFilter(SaPathCheckFilterForJakartaServlet.java:55)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.sql.SQLSyntaxErrorException: Unknown column 'id' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy117.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:65)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:80)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at jdk.proxy2/jdk.proxy2.$Proxy115.query(Unknown Source)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:65)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:336)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:158)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:110)
+	at com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor.intercept(MybatisPlusInterceptor.java:81)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:59)
+	at jdk.proxy2/jdk.proxy2.$Proxy114.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:154)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:142)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425)
+	... 90 common frames omitted
+[TraceId: ] 2024-08-23 14:57:28 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m4324[0;39m [37m---[0;39m [33m[licationShutdownHook][0;39m [36mc.z.hikari.HikariDataSource:350[0;39m             [34m- HikariPool-1 - Shutdown initiated...
+[0;39m[TraceId: ] 2024-08-23 14:57:28 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m4324[0;39m [37m---[0;39m [33m[licationShutdownHook][0;39m [36mc.z.hikari.HikariDataSource:352[0;39m             [34m- HikariPool-1 - Shutdown completed.
+[0;39m[TraceId: ] 2024-08-23 14:57:39 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m22424[0;39m [37m---[0;39m [33m[                main][0;39m [36mc.m.b.MoyuBlogBackApplication:51[0;39m            [34m- Starting MoyuBlogBackApplication using Java 17.0.7 with PID 22424 (E:\Item\moyu-blog\blog\moyu-blog-back\target\classes started by LiuRCのCP in E:\Item\moyu-blog\blog)
+[0;39m[TraceId: ] 2024-08-23 14:57:39 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m22424[0;39m [37m---[0;39m [33m[                main][0;39m [36mc.m.b.MoyuBlogBackApplication:639[0;39m           [34m- The following 1 profile is active: "dev"
+[0;39m[TraceId: ] 2024-08-23 14:57:40 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m22424[0;39m [37m---[0;39m [33m[                main][0;39m [36m.RepositoryConfigurationDelegate:291[0;39m        [34m- Multiple Spring Data modules found, entering strict repository configuration mode
+[0;39m[TraceId: ] 2024-08-23 14:57:40 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m22424[0;39m [37m---[0;39m [33m[                main][0;39m [36m.RepositoryConfigurationDelegate:138[0;39m        [34m- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[0;39m[TraceId: ] 2024-08-23 14:57:41 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m22424[0;39m [37m---[0;39m [33m[                main][0;39m [36m.RepositoryConfigurationDelegate:207[0;39m        [34m- Finished Spring Data repository scanning in 59 ms. Found 0 Redis repository interfaceinterfaces.
+[0;39m[TraceId: ] 2024-08-23 14:57:42 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m22424[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.s.b.w.e.t.TomcatWebServer:108[0;39m             [34m- Tomcat initialized with port(s): 8080 (http)
+[0;39m[TraceId: ] 2024-08-23 14:57:42 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m22424[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.a.c.core.StandardService:173[0;39m              [34m- Starting service [Tomcat]
+[0;39m[TraceId: ] 2024-08-23 14:57:42 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m22424[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.a.c.core.StandardEngine:173[0;39m               [34m- Starting Servlet engine: [Apache Tomcat/10.1.16]
+[0;39m[TraceId: ] 2024-08-23 14:57:43 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m22424[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.a.c.c.C.[.[localhost].[/]:173[0;39m             [34m- Initializing Spring embedded WebApplicationContext
+[0;39m[TraceId: ] 2024-08-23 14:57:43 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m22424[0;39m [37m---[0;39m [33m[                main][0;39m [36mrvletWebServerApplicationContext:291[0;39m        [34m- Root WebApplicationContext: initialization completed in 3646 ms
+[0;39m[TraceId: ] 2024-08-23 14:57:46 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m22424[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.s.b.w.e.t.TomcatWebServer:220[0;39m             [34m- Tomcat started on port(s): 8080 (http) with context path ''
+[0;39m[TraceId: ] 2024-08-23 14:57:46 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m22424[0;39m [37m---[0;39m [33m[                main][0;39m [36mc.m.b.MoyuBlogBackApplication:57[0;39m            [34m- Started MoyuBlogBackApplication in 9.573 seconds (process running for 12.065)
+[0;39m[TraceId: ] 2024-08-23 14:58:54 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m21296[0;39m [37m---[0;39m [33m[                main][0;39m [36mc.m.b.MoyuBlogBackApplication:51[0;39m            [34m- Starting MoyuBlogBackApplication using Java 17.0.7 with PID 21296 (E:\Item\moyu-blog\blog\moyu-blog-back\target\classes started by LiuRCのCP in E:\Item\moyu-blog\blog)
+[0;39m[TraceId: ] 2024-08-23 14:58:54 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m21296[0;39m [37m---[0;39m [33m[                main][0;39m [36mc.m.b.MoyuBlogBackApplication:639[0;39m           [34m- The following 1 profile is active: "dev"
+[0;39m[TraceId: ] 2024-08-23 14:58:55 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m21296[0;39m [37m---[0;39m [33m[                main][0;39m [36m.RepositoryConfigurationDelegate:291[0;39m        [34m- Multiple Spring Data modules found, entering strict repository configuration mode
+[0;39m[TraceId: ] 2024-08-23 14:58:55 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m21296[0;39m [37m---[0;39m [33m[                main][0;39m [36m.RepositoryConfigurationDelegate:138[0;39m        [34m- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[0;39m[TraceId: ] 2024-08-23 14:58:55 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m21296[0;39m [37m---[0;39m [33m[                main][0;39m [36m.RepositoryConfigurationDelegate:207[0;39m        [34m- Finished Spring Data repository scanning in 31 ms. Found 0 Redis repository interfaceinterfaces.
+[0;39m[TraceId: ] 2024-08-23 14:58:56 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m21296[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.s.b.w.e.t.TomcatWebServer:108[0;39m             [34m- Tomcat initialized with port(s): 8080 (http)
+[0;39m[TraceId: ] 2024-08-23 14:58:56 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m21296[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.a.c.core.StandardService:173[0;39m              [34m- Starting service [Tomcat]
+[0;39m[TraceId: ] 2024-08-23 14:58:56 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m21296[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.a.c.core.StandardEngine:173[0;39m               [34m- Starting Servlet engine: [Apache Tomcat/10.1.16]
+[0;39m[TraceId: ] 2024-08-23 14:58:56 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m21296[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.a.c.c.C.[.[localhost].[/]:173[0;39m             [34m- Initializing Spring embedded WebApplicationContext
+[0;39m[TraceId: ] 2024-08-23 14:58:56 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m21296[0;39m [37m---[0;39m [33m[                main][0;39m [36mrvletWebServerApplicationContext:291[0;39m        [34m- Root WebApplicationContext: initialization completed in 2079 ms
+[0;39m[TraceId: ] 2024-08-23 14:58:59 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m21296[0;39m [37m---[0;39m [33m[                main][0;39m [36mo.s.b.w.e.t.TomcatWebServer:220[0;39m             [34m- Tomcat started on port(s): 8080 (http) with context path ''
+[0;39m[TraceId: ] 2024-08-23 14:58:59 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m21296[0;39m [37m---[0;39m [33m[                main][0;39m [36mc.m.b.MoyuBlogBackApplication:57[0;39m            [34m- Started MoyuBlogBackApplication in 4.998 seconds (process running for 6.492)
+[0;39m[TraceId: ] 2024-08-23 14:59:03 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m21296[0;39m [37m---[0;39m [33m[http-nio-8080-exec-1][0;39m [36mo.a.c.c.C.[.[localhost].[/]:173[0;39m             [34m- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[0;39m[TraceId: ] 2024-08-23 14:59:03 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m21296[0;39m [37m---[0;39m [33m[http-nio-8080-exec-1][0;39m [36mo.s.w.s.DispatcherServlet:532[0;39m               [34m- Initializing Servlet 'dispatcherServlet'
+[0;39m[TraceId: ] 2024-08-23 14:59:03 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m21296[0;39m [37m---[0;39m [33m[http-nio-8080-exec-1][0;39m [36mo.s.w.s.DispatcherServlet:554[0;39m               [34m- Completed initialization in 1 ms
+[0;39m[TraceId: ] 2024-08-23 14:59:04 [34mINFO [0;39m [32m[LOG_HOME_IS_UNDEFINED,,,][0;39m [35m21296[0;39m [37m---[0;39m [33m[http-nio-8080-exec-4][0;39m [36mo.s.a.AbstractOpenApiResource:390[0;39m           [34m- Init duration for springdoc-openapi is: 143 ms
+[0;39m

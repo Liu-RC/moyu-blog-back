@@ -1,0 +1,9 @@
+${AnsiColor.BRIGHT_YELLOW}${AnsiStyle.BOLD}
+ __  __    ___   __   __  _   _
+|  \/  |  / _ \  \ \ / / | | | |
+| |\/| | | (_) |  \ V /  | |_| |
+| |  | |  \___/    | |    \___/
+${AnsiColor.CYAN}${AnsiStyle.BOLD}
+Java Version : (v${java.version})
+Spring Boot Version : (v${spring-boot.version})
+${AnsiStyle.NORMAL}
